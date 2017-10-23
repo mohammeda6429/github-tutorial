@@ -16,17 +16,17 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 3. Create a _username_, put in your _email_, and create a _password_
 4. Click on _Create an account_
 5. Choose a plan that you want to start off with and then click _Continue_
-6. Finally you fill out the little questionnaire they give you (Optional), and then click _Submit_
+6. Finally, you fill out the little questionnaire they give you (Optional), and then click _Submit_
 ##### How to connect your Git and Github 
 1. Go to [Github.com](https://github.com/login)
 2. After logging into Github click the icon on the top right, and then click settings 
 3. Look to the left sidebar and click _SSH and GPG keys_ 
 4. Click _New SSH Key_, then title it Cloud 9
 5. Go to _Cloud 9_ and on the top right there should be a gear icon, click it
-6. Copy the second _SSH Key_ and paste it into Github
+6. Copy the second _SSH Key_ and paste it into the key section in Github
 7. Then click _Add SSH Key_
 8. Go back to Cloud 9 and open _github-learning IDE_
-9. Finally type in >>>_ssh -T git@github.com_<<<, and it should reply with _"Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._"_
+9. Finally type in `ssh -T git@github.com`, and it should reply with _"Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._"
 
 ---
 ## Repository Setup
