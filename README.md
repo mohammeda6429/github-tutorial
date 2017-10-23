@@ -30,33 +30,33 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 ---
 ## Repository Setup
-1.Open Cloud 9 and go into your workspace
+1. Open Cloud 9 and go into your workspace
 
-2.Make sure you're in your workspace, once you're go ahead and type _mkdir (first repo name)_
+2. Make sure you're in your workspace, once you're go ahead and type `mkdir (first repo name)`
 
-3.Go into your first repo by using _cd (first repo name)_, when you get into your folder first thing you should is _git init_, that command initializes git inside of the folder
+3. Go into your first repo by using `cd (first repo name)`, when you go into your folder, first thing you should do is _git init_, that command initializes git inside the folder
 
-4.To create a file inside the folder type _touch (filename)_
+4. To create a file inside the folder type `touch (filename)`
 
-5.Open up the file by typing _c9 (Filename)_, and then type something
+5. Open up the file by typing `c9 (Filename)` and then type something in the file
 
-6.After you wrote something inside the file you can now do _git add_
-7.Then type _git commit -m ""_, Inside the quotation marks write what you did inside the folder in the present tense.
+6. After you wrote something inside the file you can now do `git add .`
+7.Then type `git commit -m ""`, Inside the quotation marks write what you did inside the folder in the present tense.
 
-8.Before you can push you have to go to _[Github.com](www.Github.com)_
+8. Before you can push you have to go to _[Github.com](www.Github.com)_
 
-9.After logging in on the top right you should see a plus icon, click on it and click on _new respitory_
+9. After logging in on the top right you should see a plus icon, click on it and click on _new respitory_
 
-10.Name it the same thing as you named your first respitory in Cloud 9
+10. Name it the same thing as you named your first respitory in Cloud 9
 
-11.After that you should see a screen that says quick setup, (make sure you have SSH clicked on)
-12.Copy one of the two commands on the bottom of the page they look similar to this "git remote add origin git@github.com:username/reponame.git" and "git push -u origin master".
+11. After that, you should see a screen that says quick setup, (make sure you have SSH clicked on)
+12. You should see two commands on the bottom of the page they look similar to this "git remote add origin git@github.com:username/reponame.git" and "git push -u origin master".
 
-12.Copy the commands one at a time. Copy the first command "git remote add origin git@github.com:username/reponame.git" and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command "git push -u origin master". 
+13. Copy the commands one at a time. Copy the first command `git remote add origin git@github.com:username/reponame.git` and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command "git push -u origin master". 
 
-13.This command makes it that if you do git push it will be pushed to the remote repo on github.
+14. This command makes it that if you do git push it will be pushed to the remote repo on github.
 
-14Now just type git push to push the changes you have made to your remote repo you just created.
+15. Now just type git push to push the changes you have made to your remote repo you just created.
 
 
 
