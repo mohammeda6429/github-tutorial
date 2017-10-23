@@ -62,12 +62,12 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 ---
 ## Workflow & Commands
-git status checks the status of the files in the repo if they have been added or not
+`git status` checks the status of the files in the repo if they have been added or not
 
-git add, adds the files to the staging area and makes them ready for commit
+`git add .`, adds the files to the staging area and makes them ready for commit
 
-git commit -m '' commits the changs you have made and finalizes the changes you have made it.
-git push pushes the changes you have made to your remote repo.
+`git commit -m ''` commits the changs you have made and finalizes the changes you have made it.
+`git push` pushes the changes you have made to your remote repo.
 
 
 
