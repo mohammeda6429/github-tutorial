@@ -50,11 +50,12 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 10. Name it the same thing as you named your first respitory in Cloud 9
 
 11. After that, you should see a screen that says quick setup, (make sure you have SSH clicked on)
-12. You should see two commands on the bottom of the page they look similar to this "git remote add origin git@github.com:username/reponame.git" and "git push -u origin master".
 
-13. Copy the commands one at a time. Copy the first command `git remote add origin git@github.com:username/reponame.git` and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command "git push -u origin master". 
+12. You should see two commands on the bottom of the page they look similar to this `"git remote add origin git@github.com:username/reponame.git"` and `"git push -u origin master"`.
 
-14. This command makes it that if you do git push it will be pushed to the remote repo on github.
+13. Copy the commands one at a time. Copy the first command `git remote add origin git@github.com:username/reponame.git` and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command `"git push -u origin master"`. 
+
+14.Now when you type `git push` it'll send the code up to [Github](www.github.com)
 
 15. Now just type git push to push the changes you have made to your remote repo you just created.
 
@@ -76,4 +77,4 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 To undo git add use git reset.
 
 To erase a commit entirely and go back to the pervious commit use `git reset -- hard HEAD ~1`. To not get rid of your files and index use "git reset -- soft HEAD~1" You can also use 'git revert' to go back to a pervious commit
-To undo a push use `git reset -- hard HEAD ~1` which goes back to the pervious commit and then force push by using 'git push -f'.
+To undo a push use `git reset -- hard HEAD ~1` which goes back to the pervious commit and then force push by using `'git push -f'`.
