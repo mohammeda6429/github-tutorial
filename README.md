@@ -69,8 +69,8 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 `git commit -m ""` commits the changes you have made and finalizes the changes you have made it.     
 `-m "(Message goes here)"` Inside the quotaion marks you write a message for yourself or others in the present tense, saying what you did to your code since the your last `commit`
-
-`git push` pushes the changes you have made to your remote repo.
+`git push` pushes the changes you have made to your remote repo.  
+![Alt git add](Git_add.png)
 
 
 
