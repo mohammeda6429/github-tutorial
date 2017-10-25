@@ -67,7 +67,9 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 `git add .`, adds the files to the staging area and makes them ready for commit
 
-`git commit -m ''` commits the changs you have made and finalizes the changes you have made it.
+`git commit -m ""` commits the changes you have made and finalizes the changes you have made it.     
+`-m "(Message goes here)"` Inside the quotaion marks you write a message for yourself or others in the present tense, saying what you did to your code since the your last `commit`
+
 `git push` pushes the changes you have made to your remote repo.
 
 
@@ -76,5 +78,8 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 ## Rolling Back Changes
 To undo git add use git reset.
 
-To erase a commit entirely and go back to the pervious commit use `git reset -- hard HEAD ~1`. To not get rid of your files and index use "git reset -- soft HEAD~1" You can also use 'git revert' to go back to a pervious commit
+To erase a commit entirely and go back to the pervious commit use `git reset -- hard HEAD ~1`.
+
+To not get rid of your files and index use "git reset -- soft HEAD~1" You can also use 'git revert' to go back to a pervious commit
+
 To undo a push use `git reset -- hard HEAD ~1` which goes back to the pervious commit and then force push by using `'git push -f'`.
