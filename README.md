@@ -11,7 +11,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 ---
 ## Initial Setup
 ##### How to make a Github account
-1. Go to [Github.com](https://github.com/login)
+1. Go to [Github.com](https://github.com/login)  ![Alt git add](Github-sign_up.png)
 2. Click 'create an account'
 3. Create a _username_, put in your _email_, and create a _password_
 4. Click on _Create an account_
@@ -34,7 +34,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 2. Make sure you're in your workspace, once you're go ahead and type `mkdir (first repo name)`
 
-3. Go into your first repo by using `cd (first repo name)`, when you go into your folder, first thing you should do is _git init_, that command initializes git inside the folder
+3. Go into your first repo by using `cd (first repo name)`, when you go into your folder, first thing you should do is `git init`, that command initializes git inside the folder
 
 4. To create a file inside the folder type `touch (filename)`
 
