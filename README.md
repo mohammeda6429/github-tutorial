@@ -17,7 +17,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 4. Click on _Create an account_
 5. Choose a plan that you want to start off with and then click _Continue_
 6. Finally, you fill out the little questionnaire they give you (Optional), and then click _Submit_
-##### How to connect your Git and Github 
+7. ##### How to connect your _Github_ account to _C9_
 1. Go to [Github.com](https://github.com/login)
 2. After logging into Github click the icon on the top right, and then click settings 
 3. Look to the left sidebar and click _SSH and GPG keys_ 
@@ -83,3 +83,5 @@ To erase a commit entirely and go back to the pervious commit use `git reset -- 
 To not get rid of your files and index use "git reset -- soft HEAD~1" You can also use 'git revert' to go back to a pervious commit
 
 To undo a push use `git reset -- hard HEAD ~1` which goes back to the pervious commit and then force push by using `'git push -f'`.
+
+## Collaboration
