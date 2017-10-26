@@ -88,3 +88,8 @@ To not get rid of your files and index use `git reset -- soft HEAD~1` You can al
 To undo a _push_ use `git reset -- hard HEAD ~1` which goes back to the pervious commit and then force push by using `git push -f`.
 
 ## Collaboration
+Forking is making a remote copy of remote repo. So when you _Fork_ someone elses project you're basically just making a copy of their remote repo. If you want to fork someone elses project you will need their username and project name, it should look something like this _https://github.com/username/project-name_
+
+After _forking_ you can now _Clone_. When you _clone_, you make a copy of your remote into your local machine.
+
+You can make changes but you can only send it to your remote, if you want to change the original code you have to send a _pull request_. The _pull request_ can be accepted or denied by the owner of the project. If they accept it, they have to go back to their _c9_ account and type `git pull`. `Git pull` brings the code down from the remote and changes your code to the one you accepted. 
