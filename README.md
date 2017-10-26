@@ -21,7 +21,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 1. Go to [Github.com](https://github.com/login)
 2. After logging into Github click the icon on the top right, and then click settings 
 3. Look to the left sidebar and click _SSH and GPG keys_  
-![Alt git add](git New_SSH_Key.png)
+![Alt git add](New_SSH_Key.png)
 4. Click _New SSH Key_, then title it Cloud 9
 5. Go to _Cloud 9_ and on the top right there should be a gear icon, click it
 6. Copy the second _SSH Key_ and paste it into the key section in Github
