@@ -44,7 +44,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 6. After you wrote something inside the file you can now do `git add .`
 7.Then type `git commit -m ""`, Inside the quotation marks write what you did inside the folder in the present tense.
 
-8. Before you can push you have to go to _[Github.com](www.Github.com)_
+8. Before you can push you have to go to [Github.com](www.Github.com)
 
 9. After logging in on the top right you should see a plus icon, click on it and click on _new respitory_
 
@@ -56,7 +56,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 13. Copy the commands one at a time. Copy the first command `git remote add origin git@github.com:username/reponame.git` and paste it in your repo that you have created. This command creates a bridge between your c9.io repo and remote repo on github.com. Then copy and paste the second command `"git push -u origin master"`. 
 
-14.Now when you type `git push` it'll send the code up to [Github](www.github.com).
+14.Now when you type `git push` it'll send the code up to [Github](https://github.com/login).
 
 15. Now just type `git push` to push the changes you have made to the remote repo you have just made.
 
@@ -72,7 +72,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 
 `-m "(Message goes here)"` Inside the quotaion marks you write a message for yourself or others in the present tense, saying what you did to your code since the your last `commit`.
 
-`git push` pushes the changes you have made to your remote repo [Github](www.Github.com).  
+`git push` pushes the changes you have made to your remote repo [Github](https://github.com/login).  
 ![Alt git add](Git_add.png)
 
 
@@ -86,6 +86,15 @@ To erase a commit entirely and go back to the pervious commit use `git reset -- 
 To not get rid of your files and index use `git reset -- soft HEAD~1` You can also use `git revert` to go back to a pervious commit.
 
 To undo a _push_ use `git reset -- hard HEAD ~1` which goes back to the pervious commit and then force push by using `git push -f`.
+
+## Error Handling
+If you `git init` in the wrong directory no need to worry because there is a simple fix. All you have to type is `rm -rf .git` to force remove it.
+If you want to delete your local repo use `rm -rf <(name of file)>`.   
+1.If you want to delete it from remote you have to go [Github](https://github.com/login)  
+2.Go into repository and click on the one you want to delete.  
+3.Go to _settings_ and scroll to the bottom until you see  ![Alt git add](Danger-Zone.png)  
+4.Then click "_Delete this repository_"  
+5.It's going to ask you to put the respitory name, put it in and then click _I understand the consequences, delete this repository_, that should've successfully deleted the remote.
 
 ## Collaboration
 Forking is making a remote copy of remote repo. So when you _Fork_ someone elses project you're basically just making a copy of their remote repo. If you want to fork someone elses project you will need their username and project name, it should look something like this _https://github.com/username/project-name_
