@@ -11,7 +11,7 @@ Git is the place where you can actually write your code, and it doesnt need Gith
 ---
 ## Initial Setup
 ##### How to make a Github account
-1. Go to [Github.com](https://github.com/login)  ![Alt git add](Github-sign_up.png)
+1. Go to [Github.com](https://github.com/login)  ![Alt git add](Github-Sign_in.png)
 2. Click 'create an account'
 3. Create a _username_, put in your _email_, and create a _password_
 4. Click on _Create an account_
